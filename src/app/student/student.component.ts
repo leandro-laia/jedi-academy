@@ -7,8 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class StudentComponent implements OnInit {
 
-  @Input() name = 'Luke';
-  @Input() isJedi = true;
+  @Input() name: string = 'Luke'
+  @Input() isJedi: boolean = true
 
   constructor() { }
 
