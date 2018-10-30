@@ -1,4 +1,10 @@
 div{
     padding: 8px;
     border : 1px solid #000;  
+    width: 150px;
+}
+.temple{
+    border: none;
+    font-style: italic;
+    font-weight: bold;
 }

@@ -5,5 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
 })
 export class AppComponent {
-  title = 'The Force be with you!';
+  
+    luke = {name : 'Luke Skywalker', isJedi : true, temple : 'Coruscant' }
+    han = {name : 'Han Solo', isJedi : false}
+    leia = {name : 'Leia', isJedi : false }
+
 }
