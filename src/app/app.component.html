@@ -1,4 +1,2 @@
 <jda-header></jda-header>
-<jda-student [student]=luke></jda-student>
-<jda-student [student]=han></jda-student>
-<jda-student [student]=leia></jda-student>
+<jda-student *ngFor = "let item of students" [student]="item"></jda-student>
